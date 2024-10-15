@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#top-bar {
+    background-color: yellow;
+    color: black;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#menu-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.842);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+#menu a:hover {
+    background-color: #dddddd00;
+    color: gray;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+#container {
+    display: flexbox;
+}
+
+#container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#formas-de-pagamentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#formas-de-pagamentos img {
+    width: 5%;
+    height: auto;
+
+}
+
+#formas-de-pagamentos p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    width: 100px;
+
+}
+
+#catalogo-bikes {
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#bike-forma-pagamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #9b9595d7;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+#bike-forma-pagamento #bike {
+    width: 200px;
+    margin-bottom: 10px;
+
+
+}
+
+#forma-de-pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#forma-de-pagamento img {
+    width: 60px;
+    height: auto;
+}
+
+#mosaico{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+
+}
+
+#imagem-grande{
+    flex: 2;
+}
+
+#imagem-grande img{
+    width: 100%;
+    height: auto;
+}
+
+#imagens-menores{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+#imagens-menores img{
+    width: 82%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+    color: azure;
+}
