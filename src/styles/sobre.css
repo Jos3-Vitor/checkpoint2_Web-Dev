@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-bar {
+    background-color: yellow;
+    color: black;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#menu-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.842);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+} 
+
+#logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+#menu a:hover {
+    background-color: #dddddd00;
+    color: gray;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.container {
+    width: 300px;
+    margin: 50px auto; /* Centraliza a div na página */
+    border: 2px solid #000; /* Adiciona uma borda à caixa */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui bordas e padding no cálculo de largura */
+    background-color: #f9f9f9; /* Cor de fundo para parecer um formulário */
+    border-radius: 5px; /* Arredonda os cantos da caixa */
+}
+
+h1, p {
+    text-align: center;
+}
+
+.form-like {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-like {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9e9e9;
+}

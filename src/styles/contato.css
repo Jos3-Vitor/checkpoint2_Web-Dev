@@ -1,7 +1,51 @@
-body{
+*{
     margin: 0;
     padding: 0;
     background-color: gray;
+}
+
+#menu-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.842);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+#menu a:hover {
+    background-color: #dddddd00;
+    color: gray;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
 
 .container{
