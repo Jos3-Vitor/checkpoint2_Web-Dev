@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: gray;
 }
 
 #menu-bar {
@@ -53,6 +52,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+background-color: gray;
 
 }
 
